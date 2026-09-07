@@ -1,0 +1,9 @@
+# Build artifacts
+booking
+*.o
+*.out
+*.exe
+
+# OS junk
+.DS_Store
+Thumbs.db
