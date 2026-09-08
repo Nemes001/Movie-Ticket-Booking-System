@@ -27,21 +27,27 @@ g++ -std=c++17 -Wall src/main.cpp -o booking
 ## Project structure
 
 ```
-src/    13 classes (one per file) + main.cpp
-docs/   class diagram and sequence diagram (draw.io format)
+src/    14 files — 13 classes (one per file) + main.cpp
+docs/   design write-up (DESIGN.md) + class diagram and sequence
+        diagram as PNG images
 ```
 
 ## Design docs
 
 - `docs/DESIGN.md` — full write-up: requirements (FR/NFR), noun-verb
   analysis, class responsibilities, relationships, and SOLID mapping
-- `docs/movie_booking_class_diagram.drawio` — full class diagram (15 classes,
+- `docs/movie_booking_class_diagram.png` — full class diagram (15 classes,
   composition/aggregation/association/inheritance relationships)
-- `docs/seat_booking_sequence_diagram.drawio` — sequence diagram for
+- `docs/seat_booking_sequence_diagram.png` — sequence diagram for
   "customer books 1 seat and pays by UPI"
 
-Open either `.drawio` file at [app.diagrams.net](https://app.diagrams.net)
-via File → Open From → Device.
+### Class diagram
+
+![Class diagram](docs/movie_booking_class_diagram.png)
+
+### Sequence diagram — book 1 seat and pay by UPI
+
+![Sequence diagram](docs/seat_booking_sequence_diagram.png)
 
 ## OOP concepts demonstrated
 
